@@ -13,7 +13,7 @@ import os
 os.system('cls')
 
 # load csv data
-# the file have 3 columns: URI,name,text for many peopls
+# the file have 3 columns: URI,name,text for many peopls 111
 wiki = pd.read_csv('people_wiki.csv')
 wiki.info()
 
