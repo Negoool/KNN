@@ -172,7 +172,6 @@ for i in range(1,len(top_five)):
     # each time intersect with the previouse one
     set_intersection = set1 & set_intersection
 print "number of pages which has these words :%d" %(len( set_intersection ))
-
 ## measuring eacludean distance
 word_count_obama = word_count[35817]
 word_count_bush = word_count[28447]
